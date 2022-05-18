@@ -1,4 +1,9 @@
-package Pattern.CreationalPatterns.factoryPattern;
+package Pattern.CreationalPatterns.factoryPattern.factory;
+
+import Pattern.CreationalPatterns.factoryPattern.item.Armor;
+import Pattern.CreationalPatterns.factoryPattern.item.Item;
+import Pattern.CreationalPatterns.factoryPattern.item.LiquidMedicine;
+import Pattern.CreationalPatterns.factoryPattern.item.Wepon;
 
 public class ItemFactory {
     public static ItemFactory itemFactory = new ItemFactory();

@@ -1,4 +1,4 @@
-package Pattern.CreationalPatterns.factoryPattern;
+package Pattern.CreationalPatterns.factoryPattern.item;
 
 public class Wepon implements Item{
 

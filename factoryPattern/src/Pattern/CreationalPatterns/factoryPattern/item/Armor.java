@@ -1,10 +1,11 @@
-package Pattern.CreationalPatterns.factoryPattern;
+package Pattern.CreationalPatterns.factoryPattern.item;
 
-public class LiquidMedicine implements Item{
+public class Armor implements Item{
+
     private String name;
     private String type;
 
-    public LiquidMedicine(String name, String type) {
+    public Armor(String name, String type) {
         this.name = name;
         this.type = type;
     }

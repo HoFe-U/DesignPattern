@@ -1,5 +1,7 @@
 package Pattern.CreationalPatterns.factoryPattern;
 
+import Pattern.CreationalPatterns.factoryPattern.factory.ItemFactory;
+
 public class Main {
     public static void main(String[] args) {
         ItemFactory.itemFactory.getItem("armor", "방패", "세완").use();
